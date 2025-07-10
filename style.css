@@ -1,0 +1,25 @@
+
+img {
+    object-fit: contain;
+    border-radius: 100px 100px 100px 100px;
+position: absolute;
+top: 20px;
+right: 30px;
+
+}
+.bouton-couleur input[type=button]{
+    /** remplacez ici le code couleur par la couleur souhaitée*/
+    background-color: #f06722 !important; 
+}
+
+header {
+background-color: #002147;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center
+}
+body {
+background-color: #f7f4ea ;
+}
+
