@@ -110,6 +110,36 @@ footer {
     margin-top: 20px;
 }
 
+header:hover {
+
+    animation: gradientMove 10s infinite;
+    background-size: 350% 350%;
+}
+
+body:hover {
+
+    animation: gradientMove 10s infinite;
+    background-size: 350% 350%;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  75% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   header {
    
@@ -141,7 +171,11 @@ footer {
   }
 }
 
-
+main {
+  padding: 3px;
+  text-align: center;
+  justify-content: center;
+}
 
 @media screen and (max-width: 667px) {
   section {
@@ -161,3 +195,4 @@ footer {
     display: none;
   }
 }
+
