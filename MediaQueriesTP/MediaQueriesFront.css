@@ -118,25 +118,33 @@ header:hover {
 
 body:hover {
 
-    animation: gradientMove 10s infinite;
+    animation: gradientMove 18s linear infinite;
     background-size: 350% 350%;
 }
 
+  
+
+
 @keyframes gradientMove {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 88%;
+filter: blur(0px)
   }
   25% {
-    background-position: 100% 50%;
+    background-position: 80% 50%;
+    filter: blur(1px)
   }
   50% {
-    background-position: 50% 100%;
+    background-position: 50% 75%;
+    filter: blur(2px)
   }
   75% {
-    background-position: 100% 50%;
+    background-position: 50% 70%;
+    filter: blur(1px)
   }
   100% {
-    background-position: 50% 0%;
+    background-position: 10% 50%;
+    filter: blur(0px)
   }
 }
 
