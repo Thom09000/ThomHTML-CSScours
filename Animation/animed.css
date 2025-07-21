@@ -77,13 +77,14 @@ width: 25%; /* ou une autre largeur */
 
 .card2:hover{
 
- animation: rotater 12s linear infinite alternate;
-
+ animation: rotater 30s linear infinite alternate;
+}
 @keyframes rotater {
    0% {
    transform: rotate(1.2deg);
      filter: brightness(1);
      transform: skew(0deg, 0deg);
+     
 }
  10% {
     transform: rotate(0deg);
@@ -161,4 +162,3 @@ transform: rotate(-1.2deg);
      transform: skew(0deg, 0deg);
 }
 }
-
