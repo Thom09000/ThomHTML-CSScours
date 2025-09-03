@@ -1,0 +1,30 @@
+
+$fond: cyan;
+@mixin bordure($couleur: blue, $largeur: 1px) {
+    border: $largeur solid $couleur;
+    border-radius: 5px;
+}
+// @mixin background ($bg: linear-gradient (rgb(236, 70, 70), rgb(248, 214, 214), rgb(14, 14, 255))) {
+//     background-color: $bg;
+// }
+@mixin background ($bg: rgba(135, 135, 224, 0.836)) {
+    background-color: $bg;
+}
+
+header {
+    background-color: $fond;
+    h1 {
+        color: red;
+    }
+}
+
+div {
+    @include bordure (grey, 0.5px,); 
+    @include background();
+}
+button {
+    @include bordure (rgb(45, 45, 77), 2px);
+    @include background (rgb(228, 194, 194));
+
+}
+

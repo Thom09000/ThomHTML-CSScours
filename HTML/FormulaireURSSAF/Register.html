@@ -1,0 +1,155 @@
+<!DOCTYPE Célibataire>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styler.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="centerise", class="styleh1">Formulaire URSSAF !</h1>
+    <a href="Connexion.html" target="_blank">Connexion</a>
+  </header>
+
+  <h2 class="centerise">S'enregistrer</h2>
+  <br>
+
+  <div class="dispositionpage", class="centerise">
+
+    <fieldset>
+      <form>
+        <h4>Nom - Prénom :</h4>
+        <label for="fname">Nom:</label>
+        <br>
+        <input type="text" id="fname" name="fname" placeholder="Rostand">
+        <br>
+        <label for="lname">Prénom:</label>
+        <br>
+        <input type="text" id="lname" name="lname" placeholder="Edmond">
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form>
+        <h4>Adresse email :</h4>
+        <label for="email">Mettez votre email:</label><br>
+        <input type="email" id="email" name="email">
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form>
+        <h4>Numéro de téléphone:</h4>
+        <label for="phone">Entrer votre numéro de téléphone:</label>
+        <br>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form>
+        <h4>Date de naissance:</h4>
+        <label for="datemax">Entrer sa date de naissance (avant 1900-01-01):</label>
+        <input type="date" id="datemax" name="datemax" max="1900-01-01"><br><br>
+    </fieldset>
+
+    </form>
+    <br>
+
+    <fieldset>
+      <form align="left">
+        <h4>Quelle est votre situation familiale ?</h4>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="Célibataire">Célibataire</label><br>
+        <input type="radio" id="En couple" name="fav_language" value="En couple">
+        <label for="En couple">En couple</label><br>
+        <input type="radio" id="Marié" name="fav_language" value="Marié">
+        <label for="Marié">Marié</label>
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form>
+        <h4>Quel est votre niveau de revenus ?</h4>
+        <label for="vol">Salaire (RSA à 500 000$ et plus):</label>
+        <input type="range" id="vol" name="vol" min="0" max="500,000">
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form align="left">
+        <h4>Déclaration de patrimoine:</h4>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> Je suis propriétaire de mon logement</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> J'ai un logement secondaire</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> J'ai une piscine</label><br>
+        <input type="checkbox" id="vehicle4" name="vehicle4" value="Boat">
+        <label for="vehicle4"> J'ai une remise</label><br>
+        <input type="checkbox" id="vehicle5" name="vehicle5" value="Boat">
+        <label for="vehicle5"> J'ai un bateau</label><br>
+        <input type="checkbox" id="vehicle6" name="vehicle6" value="Boat">
+        <label for="vehicle6"> J'ai un bien d'art reconnu ou des placements financiers</label><br>
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form>
+        <h3>Signalisation supplémentaires personelles</h3>
+        <p><label for="w3review">Informations complémentaires:</label></p>
+        <textarea id="w3review" name="w3review" rows="4"
+          cols="50">Mettez, ici, toutes les informations complémentaires que vous pensez utiles de transmettre à la cours des finances française pour casquer.</textarea>
+        <br>
+        <input type="submit" value="soumettre">
+      </form>
+    </fieldset>
+    <br>
+
+
+    <fieldset>
+      <form action="/action_page.php">
+        <label for="fname">Identifiant:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <input type="submit" value="Submit">
+      </form>
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <form>
+        <label for="Mdpasse">Mot de passe:</label><br>
+        <input type="password" id="custId" name="custId" value="3487">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      <br>
+
+      <form>
+        <label for="Mdpasse">valider le mot de passe:</label><br>
+        <input type="password" id="custId" name="custId" value="3487">
+        <br>
+        <input type="submit" value="Submit">
+        
+      </form>
+    </fieldset>
+    <br>
+
+  </div>
+
+  <footer>
+    <h4>Do you like to give you money back to your country ?</h4>
+  </footer>
+</body>
+
+

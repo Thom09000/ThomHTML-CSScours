@@ -1,0 +1,63 @@
+.styleh1 {
+      color: rgb(212, 21, 21);
+      opacity: 1;
+      
+}
+
+header {
+background-image:  url("https://previews.123rf.com/images/miss_j/miss_j0806/miss_j080600061/3202676-a-huge-mount-of-fifty-and-hundred-euro-banknotes.jpg");
+      filter: brightness(1.75);
+
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center
+}
+
+fieldset {
+      
+      resize: both;
+      width: 400px;
+      stroke: rgba(22, 19, 16, 0.904);
+      stroke-width: 3px;
+      background-color: rgb(247, 237, 225);
+      box-shadow: inset;
+      color: rgb(10, 10, 10);
+      padding: 8px;
+      box-shadow: 10px 10px 15px rgba(78, 205, 255, 0.699);
+      border-radius: 10px;
+}
+
+body {
+      background-color: rgb(250, 247, 204); 
+      align-items: center;
+      alignment-baseline: central;
+      align-self: center;
+      align-content: center;
+      text-align: center;
+      text-transform: capitalize;
+}
+
+footer {
+      margin-top: 100%;
+      background-color: rgba(154, 185, 216, 0.637);
+      filter: brightness(1.05);
+      padding: 20px;
+      border-radius: 2px;
+      text-align: center
+}
+
+
+
+.centerise
+{
+      text-align: center;
+}
+
+.dispositionpage {
+      
+      display: block;
+      margin:auto;
+      width: 25%;
+}
+
+

@@ -1,0 +1,384 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333333;
+
+}
+
+footer {
+  margin-top: 4%;
+  color: #333333;
+  background: linear-gradient(#f0f0f0, rgb(252, 240, 233));
+  padding: 3%;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .cgu {
+  color: #333333;
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: 'Titre';
+  src: url('DigitalStudent\fontStudent\Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+.fontTitre {
+  font-family: 'Titre', cursive;
+}
+
+@font-face {
+  font-family: 'SousTitre';
+  src: url('DigitalStudent\fontStudent\NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf') format('truetype');
+}
+
+.fontSousTitre {
+  font-family: 'SousTitre', cursive;
+}
+
+@font-face {
+  font-family: 'Texte';
+  src: url('DigitalStudent\fontStudent\OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+.fontTexte {
+  font-family: 'Texte', cursive;
+}
+
+
+
+
+.navstyle {
+  background: linear-gradient(rgb(252, 240, 233), #f0f0f0);
+  color: #333333;
+  padding: 1%;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navstyle img {
+  padding-left: 2%;
+
+}
+
+.navstyle h1 {
+  display: flex;
+  flex-direction: column;
+ flex:auto;
+ padding-left: 2%;
+ font-size: 48px;
+}
+
+.navlinks {
+  color: #333333;
+  list-style: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.navlinks a {
+  text-decoration: none;
+  color: #333333;
+  box-sizing: content-box;
+  width: 100%;
+  border: solid #9095b469 1px;
+  padding: 5px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+.navlinks a:hover {
+  background-color: #3b82f6;
+  filter: brightness(1.5) blur(0.5px);
+}
+
+.intro {
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  text-wrap: wrap;
+  width: 75%;
+  margin: auto;
+  height: 220px;
+  border: solid #611a1aa9 3%;
+  padding: 5px;
+}
+
+.liste {
+  color: #333333;
+  justify-content: center;
+  text-align: center;
+  justify-self: unset;
+  align-items: center;
+  align-content: center;
+}
+
+
+.elementListe {
+  padding-top: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+
+
+}
+
+.balise {
+  color: #333333;
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(252, 240, 233);
+   box-shadow: 3px 3px 10px rgba(49, 35, 35, 0.61);
+  padding: 2px;
+  padding-top: 2%;
+  border-radius: 15px;
+  width: 55%;
+  min-width: 55%;
+  max-width: 55%;
+  text-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.balise h3,
+p {
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  text-wrap: balance;
+  background-color: #f7f4ee6e;
+  width: 75%;
+  margin: auto;
+  border-radius: 12px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.visubalise {
+  color: #333333;
+  contain: cover;
+  font-size: 40px;
+  font-weight: 8px;
+  background-color: rgb(252, 240, 233);
+  border-radius: 12px;
+  padding: 2%;
+
+}
+
+.balise .visubalise {
+  color: #333333;
+  justify-content: center;
+  text-align: center;
+  justify-self: unset;
+  align-items: center;
+  align-content: center;
+  contain: cover;
+
+}
+
+.Conseils {
+  color: #333333;
+  padding: 5%;
+  width: 1200px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+}
+
+.elementConseils {
+  padding-top: 3%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  gap: 8%;
+}
+
+.Tips {
+  color: #333333;
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(252, 240, 233);
+   box-shadow: 3px 3px 10px rgba(49, 35, 35, 0.61);
+  padding: 2px;
+  padding-top: 2%;
+  border-radius: 15px;
+  width: 33%;
+  min-width: 33%;
+  max-width: 33%;
+  text-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.Tips h3,
+p {
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  text-wrap: balance;
+  background-color: #f7f4ee6e;
+  width: 75%;
+  margin: auto;
+  border-radius: 12px;
+  padding-left: 1%;
+  padding-right: 1%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+
+
+.formulaireAccroche {
+  padding-bottom: 4%;
+}
+
+.shape {
+  color: #333333;
+  border: solid 0.3px;
+  border-radius: 10px 10px;
+  border-color: rgba(22, 6, 6, 0.425);
+  background-color: rgb(252, 240, 233);
+  box-shadow: 3px 3px 10px rgba(49, 35, 35, 0.61);
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  padding: 3%;
+  padding-bottom: 2%;
+  width: 32%;
+  white-space: 20px;
+}
+
+.inputshape {
+  color: #333333;
+  border: solid 0.3px;
+  border-radius: 10px 10px;
+  border-color: rgba(22, 6, 6, 0.644);
+  box-shadow: 3px 3px 10px rgba(49, 35, 35, 0.61);
+  border-radius: 6px;
+  width: 80%;
+  padding: 0.8%;
+}
+
+.buttonshape {
+  color: #333333;
+  background-color: #e0e0e0;
+  border: solid 0.3px;
+  border-radius: 10px 10px;
+  border-color: rgba(22, 6, 6, 0.644);
+  box-shadow: 3px 3px 10px rgba(49, 35, 35, 0.61);
+  border-radius: 6px;
+  width: 33%;
+  padding: 0.8%;
+}
+
+.buttonshape:hover {
+  background-color: #3b82f6;
+  filter: brightness(1.5) blur(0.5px);
+}
+
+
+.checkbox {
+  color: #333333;
+  padding-left: 10%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+body {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer {
+    background-color:#facc15 ;
+    background: linear-gradient(135deg,#facc15 0%, #fffae6 100%);
+    justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+  }
+
+
+  .navstyle {
+    background-color:#facc15 ;
+    background: linear-gradient(135deg,#facc15 0%, #fffae6 100%);
+  }
+
+  .navlinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+.elementListe {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow-x: auto;
+  justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+   
+
+}
+
+.elementConseils {
+
+  display: grid;
+  grid-template-columns: 1fr;
+   
+}
+.shape {
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+    align-content: center;
+   align-items: center;
+    text-align: center;
+      
+}
+
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<header>
+ <nav class="navstyle">
+    <img src="images\Logos\logoipsum-370.svg" alt="">
+    <h1 class="Titre">GUIDEHTML</h1>
+     <ul class="navlinks">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">informations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <div class="intro">
+         <h2 class="sousTitre">Introduction à HTML/CSS</h2>
+         <h5 class="Texte">L'un des principaux buts de HTML est de structurer du texte et lui donner du sens (ce que l'on appelle la sémantique) afin que le navigateur puisse l'afficher correctement. Cet article explique comment HTML peut être utilisé pour structurer une page en ajoutant des titres et des paragraphes, en marquant des emphases, en créant des listes, et bien plus encore.</h5>
+    </div>
+
+    <section class="liste">
+        <h2 class="sousTitre">Liste des principales balise HTML</h2>
+        <div class="elementListe">
+            <div class="balise">
+                <pre><code class="visubalise">&lt;h1></h1&gt;</pre></code>
+                <h3 class="sousTitre">Balise h1</h3>
+                <p class="Texte">La balise h1 fait parti d'une liste de balise définissant une taille de texte souvent utilisé pour es titres et sous-titres. Cette liste va de h1, la plugrande, à h6, la plus petite.</p>
+            </div>
+            <div class="balise">
+                <pre><code class="visubalise">&lt;p></p&gt;</pre></code>
+                <h3 class="sousTitre">Balise p</h3>
+                <p class="Texte">Cette balise est la balise de base pour mettre du texte. On l'utilise généralement donc pour le corps du texte.</p>
+            </div>
+            <div class="balise">
+                <pre><code class="visubalise">&lt;img></img&gt;</pre></code>
+                <h3 class="sousTitre">Balise img</h3>
+                <p class="Texte">Elle sert à insérer une image à l'aide d'un lien src. On peut soit lui donner un lien relatif, soit absolu. Cela permet de mieux s'adapter au différents cas (image issues de serveurs ou d'internet.</p>
+            </div>
+            <div class="balise">
+                <pre><code class="visubalise">&lt;ul></ul&gt;</pre></code>
+                <h3 class="sousTitre">Balise ul</h3>
+                <p class="Texte">Cette balise sert à définir une liste. toute seule, elle est peu opérante. Il faut rajouter d'autres balises en son sein pour remplir la dite liste.</p>
+            </div>
+            <div class="balise">
+                <pre><code class="visubalise">&lt;li></li&gt;</pre></code>
+                <h3 class="sousTitre">Balise li</h3>
+                <p class="Texte">C'est une balise sui sert à l'intérieur des balises ul. Ces balises permettent de créer les éléments d'une liste.</p>
+            </div>
+             <div class="balise">
+                <pre><code class="visubalise">&lt;video></video&gt;</pre></code>
+                <h3 class="sousTitre">Balise video</h3>
+                <p class="Texte">C'est une balise sui sert , comme son nom l'indique, à insérer une vidéo grâce à un lien src. Pareillement à la balise img, elle est faie pour prendre les liens absoluts ou relatifs pour être adaptable.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="Conseils">
+        <h2 class="TitreConseil"; class="sousTitre" >Tips & bonnes pratiques</h2>
+        
+        <div class="elementConseils">
+            <div class="Tips">
+                <h3 class="sousTitre">Créer un squelette html en 0.3s</h3>
+                <p class="Texte">Vous penser qu'il faut étre un érudit du html, ayant fait ses preuves dans des forteresses de solitudes à Taïwan pour comprendre comment faire en sorte que la machine comprenne qu'on est en html ? Et bien Nom, sur votre page vscode tapez"!" et voilà vous avez le corps de votre code html, plus qu'à mettre des balises dans le body.</p>
+            </div>
+           <div class="Tips">
+                <h3 class="sousTitre">Sauver son code</h3>
+                <p class="Texte">Votre code part dans tous les sens. Vous vous rendez compte, après une heure de travail, que votre dernier action à tout détruit... Allez faisons court, faites ctrl+Z jusqu'à retrouver votre paradis perdu. Mieux, non ?.</p>
+            </div>
+            <div class="Tips">
+                <h3 class="sousTitre">"Collectionner" les balises</h3>
+                <p class="Texte">Vous devez changer le nom de plusieurs balises qui sont au nombre incroayble de 2358 ?! Adieux bel aprè-midi.. Pas si sûr, faites ctrl+D jusqu'à toutes les avoir séléctionnées, vous pouvez maintenant toutes les changer d'un coup. Magique !</p>
+            </div>
+            <div class="Tips">
+                <h3 class="sousTitre">"Les cailloux d petit poucet"</h3>
+                <p class="Texte">Vous êtes content de votre code, votre site est trop beau mais pas totalment fini, fin de journée, vous éteignez tout jusqu'à demain. Deman de retour au travail vous ouvrez et ne comprenez plus rien... Vous n'avez pas commenté. Ici plus qu'un tips, c'est un coseil commentez vos parties pour expliquer en bon français ce qu'elle font, vous sauverez votre futur vous de futures migraines...</p>
+            </div>
+        </div>
+    </section>
+
+<section class="shape" >
+
+    <div><h2 class="formulaireAccroche">Vous avez une question ?</h2></div>
+
+    <div>
+        <h4>Nom</h4>
+
+        <form>
+        <br>
+        <input class="inputshape", type="text" id="fname" name="fname" placeholder="Rostand">
+        </form>
+    </div>
+
+    <div> 
+        <h4>Prénom</h4>
+        <form action="">
+        <br>
+        <input class="inputshape" type="text" id="lname" name="lname" placeholder="Edmond">
+        </form>
+    </div>
+
+    <div>
+        <h4>Adresse mail</h4>
+       
+        <form>
+        <input class="inputshape" type="email" id="email" name="email" placeholder="j.stevengall@hotmail.com">
+        </form>
+    </div>
+  
+    <div>
+        <h4>Demandes complémentaires</h4>
+
+        <textarea class="inputshape" id="w3review" name="w3review" rows="4"
+          cols="50">Mettez, ici, toutes demandes, tous messages, que vous souhaitez nous transmettre.</textarea>
+        <br>
+        </form>
+    </div>
+
+<div>
+    <h4>Quelle est votre niveau en html/css ?</h4>
+   
+    <form align="left">
+         <div class="checkbox">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="Célibataire">Débutant</label><br>
+        <input type="radio" id="En couple" name="fav_language" value="En couple">
+        <label for="En couple">Intermédiaire</label><br>
+        <input type="radio" id="Marié" name="fav_language" value="Marié">
+        <label for="Marié">Confirmé</label>
+      </form>
+    </div>
+    </div>
+
+    <div>
+         <input class="buttonshape"type="submit" value="Valider">
+    </div>
+     <div>
+         <input class="buttonshape"type="submit" value="Effacer">
+    </div>
+      </form>
+
+    </section>
+
+    <footer>
+         <img src="images\Logos\logoipsum-370.svg" alt="">
+    <h1 class="Titre">GUIDEHTML</h1>
+     <ul class="cgu">
+            <li><a href="#">mentions légales</a></li>
+            <li><a href="#">informations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

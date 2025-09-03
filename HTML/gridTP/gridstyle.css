@@ -1,0 +1,53 @@
+ul {
+display: grid;
+justify-content: center;
+gap: 7%;
+grid-template-columns: 4% 4% 4% 4% 4%;
+}
+
+
+#container {
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 5%;
+    }
+
+  h1 {
+        background-color: brown;
+        text-align: center;
+        justify-content: center; 
+        grid-row: 1;
+        grid-column: 1/span 3;
+}
+nav {
+        background-color: blue;
+        grid-row: 2;
+        grid-column: 1/span 3;
+        justify-content: center; 
+}
+
+    
+  #p {
+        background-color: blueviolet;
+        display: grid;
+        grid-row: 3;
+        grid-column: 1/span 3;
+        text-align: center;
+        justify-content: center; 
+        gap: 10px;
+       
+    
+        
+   
+        
+    }
+    footer{
+        background-color: aqua;
+        grid-row: 4;
+        grid-column: 1
+       
+    }
+    
+
